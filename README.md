@@ -13,4 +13,6 @@ techniques used to build the simple classifier, etc.: [Large-scale multi-label t
 
 We would like to thank [Matt Watson](https://github.com/mattdangerw) for helping us build the simple baseline classifier model. Thanks to
 [Lukas Schwab](https://github.com/lukasschwab) (author of [`arxiv.py`](https://github.com/lukasschwab/arxiv.py) for helping us build
-our initial data collection utilities. 
+our initial data collection utilities. Thanks to [Robert Bradshaw](https://www.linkedin.com/in/robert-bradshaw-1b48a07/) for his inputs
+on the Apache Beam pipeline. Thanks to the [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits
+that allowed us to run the Beam pipeline at scale on Dataflow.
