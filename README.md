@@ -8,4 +8,9 @@ we are working on a pipeline to collect an even bigger dataset.
 Here's an accompanying blog post on keras.io discussing the motivation behind using this dataset, commentaries on the
 techniques used to build the simple classifier, etc.: [Large-scale multi-label text classification](https://keras.io/examples/nlp/multi_label_classification/).
 
-We would like to thank [Matt Watson](https://github.com/mattdangerw) for helping us build the simple baseline classifier model.
+
+## Acknowledgements
+
+We would like to thank [Matt Watson](https://github.com/mattdangerw) for helping us build the simple baseline classifier model. Thanks to
+[Lukas Schwab](https://github.com/lukasschwab) (author of [`arxiv.py`](https://github.com/lukasschwab/arxiv.py) for helping us build
+our initial data collection utilities. 
