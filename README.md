@@ -5,9 +5,8 @@ top of that. Our dataset is now [available on Kaggle](https://www.kaggle.com/sps
 has been shown in [this notebook](https://github.com/soumik12345/multi-label-text-classification/blob/master/beam_arxiv_scrape.ipynb). We hope
 it will be a useful benchmark for building multi-label text classification systems.
 
-Here's an accompanying blog post on keras.io discussing the motivation behind using this dataset, commentaries on the
-techniques used to build the simple classifier, etc.: [Large-scale multi-label text classification](https://keras.io/examples/nlp/multi_label_classification/).
-
+Here's an accompanying blog post on keras.io discussing the motivation behind this dataset, building a simple
+baseline model, etc.: [Large-scale multi-label text classification](https://keras.io/examples/nlp/multi_label_classification/).
 
 ## Acknowledgements
 
