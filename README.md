@@ -2,8 +2,9 @@
 
 Holds code for collecting data from arXiv to build a multi-label text classification dataset and a simpler classifier on
 top of that. Our dataset is now [available on Kaggle](https://www.kaggle.com/spsayakpaul/arxiv-paper-abstracts). The dataset collection process
-has been shown in [this notebook](https://github.com/soumik12345/multi-label-text-classification/blob/master/beam_arxiv_scrape.ipynb). We hope
-it will be a useful benchmark for building multi-label text classification systems.
+has been shown in [this notebook](https://github.com/soumik12345/multi-label-text-classification/blob/master/beam_arxiv_scrape.ipynb). We leverage
+Apache Beam to design our data collection pipeline and our pipeline can be run on [Dataflow](https://cloud.google.com/dataflow) at scale. We hope
+the data will be a useful benchmark for building multi-label text classification systems.
 
 Here's an accompanying blog post on keras.io discussing the motivation behind this dataset, building a simple
 baseline model, etc.: [Large-scale multi-label text classification](https://keras.io/examples/nlp/multi_label_classification/).
